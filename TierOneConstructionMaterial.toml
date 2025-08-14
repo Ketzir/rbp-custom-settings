@@ -3,6 +3,7 @@
 #	Namespaces:   '<minecraft>'
 #	Tags:         '#forge:stone'
 #	IDs:          'minecraft:stone'
+
 Blocks = [
     # Compromised blocks
     "minecraft:mossy_stone_brick_wall",
@@ -27,6 +28,7 @@ Blocks = [
     "minecraft:exposed_cut_copper",
     "minecraft:oxidized_copper",
     "minecraft:oxidized_cut_copper"]
+
 
 [Physics]
 	#The maximum weight the block(s) can support both horizontally and vertically.
@@ -98,4 +100,5 @@ Blocks = [
 [ChunkAnalysis]
 	#Whether the block(s) should be processed during chunk analysis updates.
 	Enabled = true
+
 
