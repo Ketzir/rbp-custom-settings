@@ -3,6 +3,7 @@
 #	Namespaces:   '<minecraft>'
 #	Tags:         '#forge:stone'
 #	IDs:          'minecraft:stone'
+
 Blocks = [
     # Deepslate variants
     "minecraft:cobbled_deepslate_wall",
@@ -23,10 +24,11 @@ Blocks = [
     "minecraft:dark_prismarine",
     "minecraft:polished_blackstone_bricks",
     "minecraft:polished_blackstone_brick_wall",
-    "minecraft:cracked_polished_blackstone_bricks" 
+    "minecraft:cracked_polished_blackstone_bricks",
     
-    "minecraft:ancient_debris",    # Pre-nethereite (tough but unstable)
-    "minecraft:magma_block",       # Hazardous but dense (semi-solid)   ]
+    # Nether hazards
+    "minecraft:ancient_debris",
+    "minecraft:magma_block"]
 
 [Physics]
 	#The maximum weight the block(s) can support both horizontally and vertically.
@@ -98,4 +100,5 @@ Blocks = [
 [ChunkAnalysis]
 	#Whether the block(s) should be processed during chunk analysis updates.
 	Enabled = true
+
 
