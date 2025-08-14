@@ -27,17 +27,18 @@ Blocks = [
     "minecraft:smooth_stone",
     "minecraft:polished_andesite",
     "minecraft:polished_diorite",
-    "minecraft:polished_granite" 
+    "minecraft:polished_granite",
     
-    #Ore piles and ornaments
-    "minecraft:raw_copper_block", 
-    "minecraft:raw_gold_block",    
-    "minecraft:raw_iron_block",    
-    "minecraft:netherrack",        
-    "minecraft:nether_gold_ore",  
-    "minecraft:nether_quartz_ore", 
-    "minecraft:gilded_blackstone", 
-    "minecraft:amethyst_block" ]
+    # Unrefined materials
+    "minecraft:raw_copper_block",
+    "minecraft:raw_gold_block",
+    "minecraft:raw_iron_block",
+    "minecraft:netherrack",
+    "minecraft:nether_gold_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:gilded_blackstone",
+    "minecraft:amethyst_block"]
+
 
 [Physics]
 	#The maximum weight the block(s) can support both horizontally and vertically.
@@ -109,4 +110,5 @@ Blocks = [
 [ChunkAnalysis]
 	#Whether the block(s) should be processed during chunk analysis updates.
 	Enabled = true
+
 
