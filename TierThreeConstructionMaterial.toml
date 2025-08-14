@@ -35,11 +35,11 @@ Blocks = [
     "minecraft:blackstone_wall",
     "minecraft:polished_basalt",
     "minecraft:purpur_block",
-    "minecraft:purpur_pillar"
+    "minecraft:purpur_pillar",
     
-    minecraft:basalt",            # Volcanic rock (moderate strength)
-    "minecraft:smooth_basalt"     # Polished but still brittle 
-    ]
+    # Volcanic/geological
+    "minecraft:basalt",
+    "minecraft:smooth_basalt"]
 
 [Physics]
 	#The maximum weight the block(s) can support both horizontally and vertically.
@@ -111,4 +111,5 @@ Blocks = [
 [ChunkAnalysis]
 	#Whether the block(s) should be processed during chunk analysis updates.
 	Enabled = true
+
 
